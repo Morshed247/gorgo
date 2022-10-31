@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/* header starts here */
+header{
+    width: 100%;
+    padding: 20px 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav_left ul{
+    display: inline-block;
+    margin-left: 40px;
+}
+.nav_left ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 15px;
+    vertical-align: middle;
+}
+.nav_left a{
+    vertical-align: middle;
+    color: #3C4048;
+    font-weight: 500;
+    font-size: 15px;
+}
+.nav_left ul li a{
+    color: #3C4048;
+    font-weight: 500;
+    font-size: 15px;
+}
+.nav_left img{
+    width: 130px;
+}
+.nav_btn a{
+    background-color: #E0144C;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    transition: .5s;
+}
+.nav_btn{
+    transition: .5s;
+}
+
+.nav_btn a:hover{
+    background-color: #be254e;
+    color: rgb(26, 183, 50);
+    transition: .5s;
+}
+.nav_btn:hover{
+    margin-top: 10px;
+    transition: .5s;
+}
+/* header ends here */
+/* hero area starts here */
+/* banner area starts here */
+section{
+    width: 100%;
+    padding: 50px 0px;
+}
+.banner{
+    display: flex;
+}
+.banner_left{
+    flex-basis: 50%;
+}
+.banner_left h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3em;
+    color: #121417;
+    margin: 30px 250px 15px 0px;
+}
+.banner_left p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #7b7c7e;
+    margin: 20px 150px 20px 0px;
+}
+.banner_left a i{
+    color: #7b7c7e;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 100%;
+    border: 1px solid #7b7c7e;
+    transition: 0.5s;
+}
+.banner_left a i:hover{
+    background-color: #be254e;
+    color: #fff;
+    border: 1px solid #be254e;
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+.banner_left a i:hover{
+    margin-left: 200px;
+    transition: 0.2s;
+}
+/* banner area ends here */
+/* demo area starts here */
+.demo_area{
+    width: 100%;
+    padding: 150px 0px;
+}
+.demo{
+    display: flex;
+}
+.demo_img{
+    flex-basis: 25%;
+    margin: 20px;
+}
+.demo_area h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #121417;
+    text-align: center;
+}
+.demo_area p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #7b7c7e;
+    margin: 20px 490px;
+    text-align: center;
+    font-style: italic;
+}
+.demo_area h4{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4e5053;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.demo_img h4:hover{
+    margin-left: 20px;
+    transition: 0.5s;
+}
+/* demo area ends here */
+/* features area starts here */
+.features_area{
+    width: 100%;
+    padding: 20px 0px;
+}
+.features_area h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #121417;
+    text-align: center;
+}
+.features_area p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #7b7c7e;
+    text-align: center;
+    font-style: italic;
+    margin: 20px;
+}
+.features{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-bottom: 80px;
+}
+.features-text{
+    text-align: center;
+    margin: 80px 30px 0px;
+}
+.features-text i{
+    color: #E0144C;
+    margin-bottom: 10px;
+}
+.features-text h4{
+    color: #292a2a;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.features-text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.3em;
+    color: #7b7c7e;
+}
+/* features area ends here */
+/* hero area ends here */
+/* footer area starts here */
+.footer_area{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #3F3B6C;
+    text-align: center;
+}
+.footer_area h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3em;
+    color: #fff;
+    margin: 0px 650px 20px;
+    text-transform: capitalize;
+}
+.footer_area a{
+    text-transform: uppercase;
+    background-color: #E0144C;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 11px;
+    transition: .5s;
+}
+.footer_area a:hover{
+    background-color: #891634;
+    color: #fff;
+    text-transform: capitalize;
+    transition: .5s;
+}
+.footer_icon i{
+    color: #ffffff;
+    text-align: center;
+}
+/* footer area ends here */
